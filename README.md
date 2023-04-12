@@ -1,4 +1,4 @@
-*Forked form [siduck/chadwm](https://ithub.com/siduck/chadwm/)*
+*Forked form [siduck/chadwm](https://github.com/siduck/chadwm/)*
 
 # Requirements
 
