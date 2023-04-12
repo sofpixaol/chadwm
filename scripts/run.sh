@@ -1,7 +1,6 @@
 #!/bin/sh
 
-xrdb merge ~/.Xresources 
-xbacklight -set 10 &
+xrdb merge ~/.Xresources
 feh --randomize --bg-fill ~/Pictures/wallpaper/*.png &
 xset r rate 200 50 &
 picom --experimental-backends --config ~/.config/chadwm/scripts/picom.conf >> /dev/null 2>&1 &
