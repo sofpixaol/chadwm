@@ -4,6 +4,7 @@ call_menu() {
 	echo '艹 update statusbar'
 	[ "$(systemctl status v2raya | grep running)" ] && echo ' close v2raya' || echo ' open v2raya'
 	[ "$(ps aux | grep picom | grep -v 'grep\|rofi\|nvim')" ] && echo ' close picom' || echo ' open picom'
+  echo '󰜬 open eww'
 }
 
 # 执行菜单
@@ -26,6 +27,9 @@ execute_menu() {
 		;;
 	' close picom')
 		killall picom
+		;;
+  '󰜬 open eww')
+    eww open eww
 		;;
 	esac
 }
