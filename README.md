@@ -14,7 +14,7 @@
 - acpi
 - rofi
 - eww
-- light
+- light (You may want to run this `sudo light -N 10`)
 
 # Install
 
@@ -43,7 +43,7 @@ sx sh ~/.config/chadwm/scripts/run.sh
 (Make an alias for this :v)
 
 ```shell
-alias chadwm='startx ~/.config/chadwm/scripts/run.sh'
+alias startdwm='startx ~/.config/chadwm/scripts/run.sh'
 ```
 
 ## With Display Manager
@@ -94,24 +94,3 @@ eww open eww
 (Note: I use only alsa on my system so audio scripts on widget are alsa related, modify them to support pulseaudio)
 
 - It could be a good idea to add these lines to your autostart file, located at ~/.config/chadwm/scripts/run.sh
-
-# Patches
-
-- barpadding 
-- bottomstack
-- cfacts
-- dragmfact 
-- dragcfact (took from [bakkeby's build](https://github.com/bakkeby/dwm-flexipatch))
-- fibonacii
-- gaplessgrid
-- horizgrid
-- movestack 
-- vanity gaps
-- colorful tags
-- statuspadding 
-- status2d
-- underline tags
-- notitle
-- winicon
-- [preserveonrestart](https://github.com/PhyTech-R0/dwm-phyOS/blob/master/patches/dwm-6.3-patches/dwm-preserveonrestart-6.3.diff). This patch doesnt let all windows mix up into tag 1 after restarting dwm.
-- shiftview
