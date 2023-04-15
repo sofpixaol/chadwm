@@ -13,6 +13,8 @@
 - feh
 - acpi
 - rofi
+- eww
+- light
 
 # Install
 
