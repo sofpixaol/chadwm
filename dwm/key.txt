@@ -1,0 +1,101 @@
+ super +            |  切换 托盘栏显示状态
+ super tab          |  本tag内切换聚焦窗口
+ super shift tab    |  本tag内切换聚焦窗口
+ super up           |  本tag内切换聚焦窗口
+ super down         |  本tag内切换聚焦窗口
+
+ super left         |  聚焦到左边的tag
+ super right        |  聚焦到右边的tag
+ super shift left   |  将本窗口移动到左边tag
+ super shift right  |  将本窗口移动到右边tag
+
+ super a            |  显示所有tag 或 跳转到聚焦窗口的tag
+
+ super ,            |  缩小主工作区
+ super .            |  放大主工作区
+
+ super i            |  隐藏 窗口
+ super shift i      |  取消隐藏 窗口
+
+ super shift enter  |  将当前聚焦窗口置为主窗口
+
+ super t            |  开启/关闭 聚焦目标的float模式
+ super shift t      |  开启/关闭 全部目标的float模式
+ super f            |  开启/关闭 全屏
+ super shift f      |  开启/关闭 状态栏
+ super g            |  开启/关闭 全局
+ super u            |  开启/关闭 边框
+ super e            |  改变主工作区窗口数量 (1 2中切换)
+
+ super b            |  光标移动到另一个显示器
+ super shift b      |  将聚焦窗口移动到另一个显示器
+
+ super q            |  关闭窗口
+ super ctrl q       |  强制关闭窗口(处理某些情况下无法销毁的窗口)
+ super ctrl f12     |  退出dwm
+
+ super shift space  |  切换到网格布局
+ super o            |  切换 只显示一个窗口 / 全部显示
+
+ super ctrl +       |  窗口增大
+ super ctrl -       |  窗口减小
+ super ctrl space   |  窗口重置
+
+ super ctrl up      |  移动窗口
+ super ctrl down    |  移动窗口
+ super ctrl left    |  移动窗口
+ super ctrl right   |  移动窗口
+
+ super alt up       |  调整窗口
+ super alt down     |  调整窗口
+ super alt left     |  调整窗口
+ super alt right    |  调整窗口
+
+ super k            | 二维聚焦窗口
+ super j            | 二维聚焦窗口
+ super h            | 二维聚焦窗口
+ super l            | 二维聚焦窗口
+ super shift k      | 二维交换窗口 (仅平铺)
+ super shift j      | 二维交换窗口 (仅平铺)
+ super shift h      | 二维交换窗口 (仅平铺)
+ super shift l      | 二维交换窗口 (仅平铺)
+
+ spawn + SHCMD 执行对应命令(已下部分建议完全自己重新定义)
+ super s          | 打开scratch终端       
+ super enter      | 打开st终端            
+ super +          | 打开全局st终端        
+ super space      | 打开浮动st终端        
+ super F1         | 打开/关闭pcmanfm      
+ super d          | rofi: 执行run         
+ super p          | rofi: 执行自定义脚本  
+ super n          | 锁定屏幕              
+ super shift up   | 音量加                
+ super shift down | 音量减                
+ super shift a    | 截图                  
+ super shift q    | 选中某个窗口并强制kill
+
+
+ 左键        |  点击标题     |  隐藏其他窗口仅保留该窗口
+ 右键        |  点击标题     |  切换窗口显示状态
+
+ 点击窗口操作
+ super+左键  |  拖拽窗口     |  拖拽窗口
+ super+右键  |  拖拽窗口     |  改变窗口大小
+
+ 点击tag操作
+ 左键        |  点击tag      |  切换tag
+ 右键        |  点击tag      |  切换是否显示tag
+ super+左键  |  点击tag      |  将窗口移动到对应tag
+ 鼠标滚轮上  |  tag          |  向前切换tag
+ 鼠标滚轮下  |  tag          |  向后切换tag
+
+ 点击状态栏操作
+ 左键        |  点击状态栏   |  根据状态栏的信号执行 ~/scripts/dwmstatusbar.sh $signal L
+ 中键        |  点击状态栏   |  根据状态栏的信号执行 ~/scripts/dwmstatusbar.sh $signal M
+ 右键        |  点击状态栏   |  根据状态栏的信号执行 ~/scripts/dwmstatusbar.sh $signal R
+ 鼠标滚轮上  |  状态栏       |  根据状态栏的信号执行 ~/scripts/dwmstatusbar.sh $signal U
+ 鼠标滚轮下  |  状态栏       |  根据状态栏的信号执行 ~/scripts/dwmstatusbar.sh $signal D
+
+ 点击bar空白处
+ 左键        |  bar空白处    |  rofi 执行 window
+ 右键        |  bar空白处    |  rofi 执行 drun

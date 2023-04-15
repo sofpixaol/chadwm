@@ -20,7 +20,7 @@
 }
 
 .lock {
-  color: $blue;
+  color: $red;
   padding: 0 1.4rem;
 }
 
@@ -30,10 +30,10 @@
 }
 
 .wifi {
-  background-color: $red;
+  background-color: $blue;
   color: $black;
-  padding: 0 1.1rem;
-  font-size: 1.7rem;
+  padding: 0 1.4rem;
+  font-size: 2.0rem;
 }
 
 .lock, .restart, .close, .wifi{

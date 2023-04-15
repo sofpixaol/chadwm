@@ -2,7 +2,7 @@
     (metric
              :class 'brightness'
              :value brightness
-             :onchange "xbacklight -set {}%"
+             :onchange "sudo light -S {}%"
              :orientation 'h'
              :flipped false
              )

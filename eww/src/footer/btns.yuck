@@ -17,17 +17,13 @@
   )
 
 (btn :name ""
-  :command "slock"
+  :command "~/.config/chadwm/scripts/blurlock.sh"
   :class "lock"
  )
 
- (btn :name wifi 
-   :command "iwgtk"
+ (btn :name "󰤨" 
+   :command "iwgtk &"
    :class "wifi"
   )
 
- (btn :name "" 
-    :command "doas zzz"
-    :class "sleep"
-  )
 ))

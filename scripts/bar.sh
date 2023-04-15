@@ -42,9 +42,11 @@ mem() {
   printf "^c$blue^ $(free -h | awk '/^Mem/ { print $3 }' | sed s/i//g)"
 }
 
+
+
 wlan() {
 	case "$(cat /sys/class/net/wl*/operstate 2>/dev/null)" in
-	up) printf "^c$black^ ^b$blue^ 󰤨 ^d^%s" " ^c$blue^Connected" ;;
+	up) printf "^c$black^ ^b$blue^ 󰤨 ^d^%s" " ^c$blue^$(iwctl station wlan0 show | grep "Connected network" | sed "s/Connected network//" | sed 's/ *//g')" ;;
 	down) printf "^c$black^ ^b$blue^ 󰤭 ^d^%s" " ^c$blue^Disconnected" ;;
 	esac
 }

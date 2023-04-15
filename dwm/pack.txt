@@ -1,0 +1,11 @@
+[basic]
+grub efibootmgr iwd iwgtk dialog os-prober dosfstools ntfs-3g base-devel linux-headers git sudo intel-ucode
+
+[dependence]
+alsa-utils bear blueman bluez-utils btop cava cmake ctags dmenu dunst feh ilbconfig meson ncmpcpp ninja upower uthash xclip yay xorg xorg-init xorg-apps rofi unzip pulseaudio pulseaudio-alsa pulseaudio-bluetooth xss-lock eww 
+
+[apps]
+v2raya neovim nethack dwarffortress neofetch obs-studio vlc firefox tree archlinuxcn-keyring clang flameshot
+
+[fcitx]
+rime-pinyin-zhwiki fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-input-support fcitx5-material-color fcitx5-qt fcitx5-rime
